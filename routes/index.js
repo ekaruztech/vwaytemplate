@@ -5,4 +5,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Divine Express' });
 });
 
+router.get('/trips', function(req, res, next) {
+    res.render('trip', { title: 'Divine Express' });
+});
+
 module.exports = router;
