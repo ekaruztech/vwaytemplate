@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon app"
+    "dev": "nodemon app",
+    "build-css": "node-sass -o public/css scss",
+    "start": "nodemon -e scss -x \"npm run build-css && npm run dev\""
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

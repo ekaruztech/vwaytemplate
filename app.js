@@ -30,7 +30,6 @@ app.use(sassMiddleware({
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-
 //app.use('/contact', contactRouter);
 app.use('/users', usersRouter);
 
@@ -38,7 +37,6 @@ app.use('/users', usersRouter);
 app.use(function (req, res, next) {
     next(createError(404));
 });
-
 // error handler
 app.use(function (err, req, res, next) {
     // set locals, only providing error in development
