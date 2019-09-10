@@ -51,7 +51,7 @@ footer {
   background: #3c88b5;
   min-height: 10vh; }
   footer .vm-footer {
-    height: 10vh; }
+    height: 12vh; }
     footer .vm-footer p {
       color: #ffffff;
       font-size: 14px;
@@ -90,3 +90,6 @@ footer {
 .contactinfo {
   color: #3c88b5;
   font-weight: 500; }
+
+.main-section {
+  min-height: 80vh; }
