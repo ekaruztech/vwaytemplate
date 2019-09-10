@@ -1,4 +1,4 @@
-$bg-color: #42704e;
+$bg-primary: #3c88b5;
 $accent-color: #151933;
 $accent-light-color: #e7ece9;
 
@@ -14,7 +14,7 @@ body {
 
 .navlink {
   .nav-link {
-    color: #3c88b5;
+    color: $bg-primary;
     margin-right: 7px;
     font-size: 13px;
   }
@@ -22,7 +22,7 @@ body {
 
 .headersection {
   background-image: url('../images/divine-banner-main.jpg');
-  height: 100vh - 15;
+  height: 100vh - 20;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -58,4 +58,21 @@ body {
   color: #0253a1;
   font-size: 18px;
   font-weight: 400;
+}
+
+.trips {
+  min-height: 100vh - 20;
+}
+
+footer {
+  background: $bg-primary;
+  min-height: 10vh;
+  .vm-footer {
+    height: 10vh;
+    p {
+      color: #ffffff;
+      font-size: 14px;
+      margin: auto 0;
+    }
+  }
 }

@@ -13,7 +13,7 @@ body {
 
 .headersection {
   background-image: url("../images/divine-banner-main.jpg");
-  height: 85vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -34,12 +34,15 @@ body {
   font-size: 13px !important;
   text-align: end !important; }
 
-.welcomediv {
-  color: #0253a1;
-  font-size: 40px;
-  font-weight: 500; }
+.trips {
+  min-height: 80vh; }
 
-.welcometext {
-  color: #0253a1;
-  font-size: 18px;
-  font-weight: 400; }
+footer {
+  background: #3c88b5;
+  min-height: 10vh; }
+  footer .vm-footer {
+    height: 10vh; }
+    footer .vm-footer p {
+      color: #ffffff;
+      font-size: 14px;
+      margin: auto 0; }
