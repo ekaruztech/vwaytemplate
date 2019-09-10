@@ -1,92 +1,117 @@
 body {
   font-family: Roboto, sans-serif;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 .logo {
   height: 50px;
-  width: auto; }
+  width: auto;
+}
 
 .navlink .nav-link {
   color: #3c88b5;
   margin-right: 7px;
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 .headersection {
   background-image: url("../images/divine-banner-main.jpg");
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+}
 
 .populartrip {
   color: #3c88b5;
   font-size: 24px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .terminalloc {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .pricesec {
   font-size: 23px;
-  font-weight: 900 !important; }
+  font-weight: 900 !important;
+}
 
 .pricemore {
   font-size: 13px !important;
-  text-align: end !important; }
+  text-align: end !important;
+}
 
 .welcomediv {
   color: #0253a1;
   font-size: 40px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .welcometext {
   color: #0253a1;
   font-size: 18px;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 .trips {
-  min-height: 80vh; }
+  min-height: 80vh;
+}
 
 footer {
   background: #3c88b5;
-  min-height: 10vh; }
-  footer .vm-footer {
-    height: 10vh; }
-    footer .vm-footer p {
-      color: #ffffff;
-      font-size: 14px;
-      margin: auto 0; }
+  min-height: 10vh;
+}
+footer .vm-footer {
+  height: 10vh;
+}
+footer .vm-footer p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto 0;
+}
 
 .contactHeading {
   color: #0253a1;
-  font-size: 7vh; }
+  font-size: 7vh;
+}
 
 .headingtext {
   color: #0253a1;
-  font-size: 2vh; }
+  font-size: 2vh;
+}
 
 .forminput {
   width: 100%;
   height: 60px;
-  border: 1px solid #3c88b5 !important; }
-  .forminput::placeholder {
-    color: #3c88b5;
-    font-size: 18px; }
+  border: 1px solid #3c88b5 !important;
+}
+.forminput::placeholder {
+  color: #3c88b5;
+  font-size: 18px;
+}
 
 .messagesec {
   width: 100%;
-  height: 120px; }
-  .messagesec::placeholder {
-    color: #3c88b5;
-    font-size: 18px; }
+  height: 120px;
+}
+.messagesec::placeholder {
+  color: #3c88b5;
+  font-size: 18px;
+}
 
 .btn-primary {
   color: white !important;
-  background-color: #3c88b5; }
+  background-color: #3c88b5;
+}
 
 .fa-3x {
-  color: #0253a1 !important; }
+  color: #0253a1 !important;
+}
 
 .contactinfo {
   color: #0253a1;
-  font-weight: 500; }
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=styles.css.map */
