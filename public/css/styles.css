@@ -4,18 +4,16 @@ body {
 
 .logo {
   height: 50px;
-  width: auto;
-}
+  width: auto; }
 
 .navlink .nav-link {
   color: #3c88b5;
   margin-right: 7px;
-  font-size: 13px;
-}
+  font-size: 13px; }
 
 .headersection {
   background-image: url("../images/divine-banner-main.jpg");
-  height: 85vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -35,3 +33,16 @@ body {
 .pricemore {
   font-size: 13px !important;
   text-align: end !important; }
+
+.trips {
+  min-height: 80vh; }
+
+footer {
+  background: #3c88b5;
+  min-height: 10vh; }
+  footer .vm-footer {
+    height: 10vh; }
+    footer .vm-footer p {
+      color: #ffffff;
+      font-size: 14px;
+      margin: auto 0; }
