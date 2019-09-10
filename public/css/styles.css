@@ -4,14 +4,12 @@ body {
 
 .logo {
   height: 50px;
-  width: auto;
-}
+  width: auto; }
 
 .navlink .nav-link {
   color: #3c88b5;
   margin-right: 7px;
-  font-size: 13px;
-}
+  font-size: 13px; }
 
 .headersection {
   background-image: url("../images/divine-banner-main.jpg");
@@ -35,3 +33,13 @@ body {
 .pricemore {
   font-size: 13px !important;
   text-align: end !important; }
+
+.welcomediv {
+  color: #0253a1;
+  font-size: 40px;
+  font-weight: 500; }
+
+.welcometext {
+  color: #0253a1;
+  font-size: 18px;
+  font-weight: 400; }
