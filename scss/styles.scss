@@ -6,3 +6,33 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 12px;
 }
+.logo{
+  height: 50px;
+}
+.nav-link {
+  color: #3c88b5;
+  font-size: 16px;
+}
+.headersection{
+  background-image: url('../images/divine-banner-main1.jpg');
+  height: 515px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.populartrip{
+  color: #3c88b5;
+  font-size: 24px;
+  font-weight: 700;
+}
+.terminalloc{
+  font-size: 18px;
+}
+.pricesec{
+  font-size: 23px;
+  font-weight: 900 !important;
+}
+.pricemore{
+  font-size: 13px !important;
+  text-align: end !important;
+}
