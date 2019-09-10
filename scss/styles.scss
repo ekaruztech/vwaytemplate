@@ -9,19 +9,20 @@ body {
 
 .logo {
   height: 50px;
+  width: auto;
 }
 
 .navlink {
   .nav-link {
     color: #3c88b5;
-    margin-right: 10px;
-    font-size: 14px;
+    margin-right: 7px;
+    font-size: 13px;
   }
 }
 
 .headersection {
   background-image: url('../images/divine-banner-main.jpg');
-  height: 100vh - 20;
+  height: 100vh - 15;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

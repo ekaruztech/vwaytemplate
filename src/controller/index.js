@@ -6,6 +6,14 @@ export const AppController = {
         return res.render('index', { title: 'Divine Express' });
     },
     
+    contact(req, res, next) {
+        return res.render('contact', { title: 'Divine Express' });
+    },
+    
+    about(req, res, next) {
+        return res.render('about', { title: 'Divine Express' });
+    },
+    
     trips(req, res, next) {
         res.render('trips', { title: 'Divine Express' });
     },
