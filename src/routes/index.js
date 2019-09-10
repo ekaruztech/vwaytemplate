@@ -5,4 +5,5 @@ const router = Router();
 
 router.get('/', AppController.index);
 router.get('/vway/trips', AppController.trips);
+router.get('/terminals', AppController.terminals);
 export default router;
