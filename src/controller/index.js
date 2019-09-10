@@ -12,6 +12,6 @@ export const AppController = {
     
     async terminals(req, res, next) {
         const terminals = await APPRequest.getTerminals();
-        res.render('terminals', { terminals });
+        res.render('terminals', { title: 'Divine Express', terminals });
     }
 };

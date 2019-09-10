@@ -13,7 +13,17 @@
 <body>
 <% include partials/navbar.ejs %>
 <section id="voomsway">
-    <%= terminals %>
+    <% terminals.forEach( (terminal) => { %>
+    <div>
+        <%= terminal.name %>
+        <% if (terminal.destinations && terminal.destinations.length) { %>
+        <h6><strong>Destinations <%= terminal.destinations.length %></strong></h6>
+        <% terminal.destinations.forEach((destination) =>  { %>
+        <%= destination.name %>
+        <% }) %>
+        <% } %>
+    </div>
+    <% }) %>
 </section>
 <% include partials/footer.ejs %>
 </body>

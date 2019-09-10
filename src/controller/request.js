@@ -1,4 +1,10 @@
 import axios from 'axios';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+
+console.log(' process.env.VOOMSWAY_API_HOST : ', process.env.VOOMSWAY_API_HOST);
 
 const defaultOptions = {
     baseURL: process.env.VOOMSWAY_API_HOST,
