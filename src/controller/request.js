@@ -5,6 +5,7 @@ dotenv.config();
 
 
 console.log(' process.env.VOOMSWAY_API_HOST : ', process.env.VOOMSWAY_API_HOST);
+console.log(' process.env.VOOMSWAY_API_KEY : ', process.env.VOOMSWAY_API_KEY);
 
 const defaultOptions = {
     baseURL: process.env.VOOMSWAY_API_HOST,
