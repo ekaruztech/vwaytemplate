@@ -31,29 +31,37 @@ var AppController = {
   },
   trips: function trips(req, res, next) {
     res.render('trips', {
-      title: 'Divine Express'
+      title: 'Divine Express',
+      host: process.env.HOST
     });
   },
   terminals: function () {
     var _terminals = (0, _asyncToGenerator2["default"])(
     /*#__PURE__*/
     _regenerator["default"].mark(function _callee(req, res, next) {
-      var terminals;
+      var page, _ref, _meta, data;
+
       return _regenerator["default"].wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              _context.next = 2;
-              return _request["default"].getTerminals();
-
-            case 2:
-              terminals = _context.sent;
-              res.render('terminals', {
-                title: 'Divine Express',
-                terminals: terminals
+              page = req.query.page || 1;
+              _context.next = 3;
+              return _request["default"].getTerminals({
+                page: page
               });
 
-            case 4:
+            case 3:
+              _ref = _context.sent;
+              _meta = _ref._meta;
+              data = _ref.data;
+              res.render('terminals', {
+                title: 'Divine Express',
+                terminals: data,
+                pagination: _meta.pagination
+              });
+
+            case 7:
             case "end":
               return _context.stop();
           }
