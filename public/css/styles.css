@@ -91,7 +91,6 @@ footer {
   color: #3c88b5;
   font-weight: 500; }
 
-<<<<<<< HEAD
 .aboutsec {
   height: 200px;
   color: white;
@@ -120,7 +119,5 @@ footer {
 .card-body {
   color: #88a6b7;
   font-size: 16px; }
-=======
-.main-section {
-  min-height: 80vh; }
->>>>>>> 32e0fd4c952c0c2eacb45af51c749b93f1773fed
+  .card-body .main-section {
+    min-height: 80vh; }

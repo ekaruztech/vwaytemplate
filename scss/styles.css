@@ -63,7 +63,7 @@ footer {
   min-height: 10vh;
 }
 footer .vm-footer {
-  height: 10vh;
+  height: 12vh;
 }
 footer .vm-footer p {
   color: #ffffff;
@@ -149,6 +149,9 @@ footer .vm-footer p {
 .card-body {
   color: #88a6b7;
   font-size: 16px;
+}
+.card-body .main-section {
+  min-height: 80vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
