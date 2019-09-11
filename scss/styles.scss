@@ -68,7 +68,7 @@ footer {
   background: $bg-primary;
   min-height: 10vh;
   .vm-footer {
-    height: 10vh;
+    height: 12vh;
     p {
       color: #ffffff;
       font-size: 14px;
@@ -116,6 +116,7 @@ footer {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .aboutsec{
   height: 200px;
   color: white;
@@ -145,4 +146,8 @@ footer {
 .card-body{
   color: #88a6b7;
   font-size: 16px;
+=======
+.main-section {
+  min-height: 100vh - 20;
+>>>>>>> 32e0fd4c952c0c2eacb45af51c749b93f1773fed
 }
