@@ -1,5 +1,7 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -22,8 +24,6 @@ var _nodeSassMiddleware = _interopRequireDefault(require("node-sass-middleware")
 var _http = _interopRequireDefault(require("http"));
 
 var _index = _interopRequireDefault(require("./routes/index"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 _dotenv["default"].config();
 
