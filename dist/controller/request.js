@@ -18,6 +18,7 @@ var _dotenv = _interopRequireDefault(require("dotenv"));
 _dotenv["default"].config();
 
 console.log(' process.env.VOOMSWAY_API_HOST : ', process.env.VOOMSWAY_API_HOST);
+console.log(' process.env.VOOMSWAY_API_KEY : ', process.env.VOOMSWAY_API_KEY);
 var defaultOptions = {
   baseURL: process.env.VOOMSWAY_API_HOST,
   headers: {}
