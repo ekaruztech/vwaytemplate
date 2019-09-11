@@ -92,11 +92,18 @@ footer {
   font-weight: 500; }
 
 .aboutsec {
-  height: 200px;
+  padding: 20px;
+}
+
+.section-title {
+  padding: 20px;
   color: white;
   background-color: #3c88b5; }
-  .aboutsec .abouthead {
-    font-weight: 700; }
+
+.section-title .title {
+  font-weight: 500;
+  margin: auto 0;
+}
 
 .whoweare {
   color: #88a6b7; }
@@ -119,16 +126,10 @@ footer {
 .card-body {
   color: #88a6b7;
   font-size: 16px; }
-  .card-body .main-section {
-    min-height: 80vh; }
 
-.terminalheader {
-  height: 150px;
-  color: white;
-  background-color: #3c88b5; }
-  .terminalheader .terminaltitle {
-    font-size: 40px;
-    font-weight: 700; }
+.main-section {
+  min-height: 80vh;
+}
 
 .bg-success {
   color: white !important;
