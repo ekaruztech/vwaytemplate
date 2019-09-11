@@ -151,3 +151,23 @@ footer {
   min-height: 100vh - 20;
 }
 }
+
+.terminalheader{
+  height: 150px;
+  color: white;
+  background-color: #3c88b5;
+  .terminaltitle{
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
+.bg-success{
+  color: white !important;
+  background-color: #3c88b5 !important;
+  font-size: 20px;
+}
+
+.tablebody{
+  color: #3c88b5 !important;
+  font-size: 16px;
+}
