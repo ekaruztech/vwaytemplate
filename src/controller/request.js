@@ -57,16 +57,17 @@ const createRequest = config => instance(config);
 const APPRequest = {
     /**
      * Get Terminals of a company
+     * @param {Object} query a company
      * @return {Object} res The response object
      */
-    async getTerminals() {
+    async getTerminals(query) {
         const config = {
             method: 'get',
             url: '/terminals',
-            params: { population: JSON.stringify(['destinations']) }
+            params: { population: JSON.stringify(['destinations']), ...query }
         };
         return createRequest(config)
-            .then(response => response.data,
+            .then(response => response,
                 err => {
                     return {};
                 });

@@ -19,7 +19,9 @@ export const AppController = {
     },
     
     async terminals(req, res, next) {
-        const terminals = await APPRequest.getTerminals();
-        res.render('terminals', { title: 'Divine Express', terminals });
+        const page = req.query.page || 1;
+        const { _meta, data } = await APPRequest.getTerminals({ page });
+        console.log('_meta : ', _meta);
+        res.render('terminals', { title: 'Divine Express', terminals: data, pagination: _meta.pagination });
     }
 };

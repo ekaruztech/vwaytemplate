@@ -17,58 +17,64 @@ const capitalizeFirstLetter = (string) => {
 };
 %>
 <% include partials/navbar.ejs %>
-<div class="container-fluid section-title">
-    <div class="row">
-        <div class="col-lg-12 col-sm-12 text-center">
-            <h1 class="title">Our Terminals</h1>
+<section class="main-section">
+    <div class="container-fluid section-title">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 text-center">
+                <h1 class="title">Our Terminals</h1>
+            </div>
         </div>
     </div>
-</div>
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-12 mx-auto">
-            <table class="table table-bordered">
-                <thead class="bg-success text-white">
-                <tr>
-                    <th scope="col">State</th>
-                    <th scope="col">Branch</th>
-                    <th scope="col">Address</th>
-                    <th scope="col">Contact Address</th>
-                    <th scope="col">Routes</th>
-                </tr>
-                </thead>
-                <tbody class="tablebody">
-                <% terminals.forEach( (terminal) => { %>
-                <tr>
-                    <td scope="row"><%= `${capitalizeFirstLetter(terminal.location.state)}` %></td>
-                    <td scope="row"><%= `${capitalizeFirstLetter(terminal.location.city)}, ${capitalizeFirstLetter(terminal.location.state)}` %></td>
-                    <td><%= `${terminal.location.street}, ${terminal.location.city}, ${terminal.location.state}` %></td>
-                    <td>email@yourcompany.com, +2348156786734</td>
-                    <td>
-                        <% if (terminal.destinations && terminal.destinations.length) { %>
-                        <% terminal.destinations.forEach((destination) =>  { %>
-                        <div>
-                            <%=
-                                `${capitalizeFirstLetter(destination.location.city)}, ${capitalizeFirstLetter(destination.location.state)}`
-                            %>
-                        </div>
-                        <% }) %>
-                        <% } %>
-                    </td>
-                </tr>
-                <% }) %>
-                </tbody>
-            </table>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 mx-auto">
+                <table class="table table-bordered">
+                    <thead class="bg-success text-white">
+                    <tr>
+                        <th scope="col">State</th>
+                        <th scope="col">Branch</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Contact Address</th>
+                        <th scope="col">Routes</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tablebody">
+                    <% terminals.forEach( (terminal) => { %>
+                    <tr>
+                        <td scope="row"><%= `${capitalizeFirstLetter(terminal.location.state)}` %></td>
+                        <td scope="row"><%= `${capitalizeFirstLetter(terminal.location.city)}, ${capitalizeFirstLetter(terminal.location.state)}` %></td>
+                        <td><%= `${terminal.location.street}, ${terminal.location.city}, ${terminal.location.state}` %></td>
+                        <td>email@yourcompany.com, +2348156786734</td>
+                        <td>
+                            <% if (terminal.destinations && terminal.destinations.length) { %>
+                            <% terminal.destinations.forEach((destination) =>  { %>
+                            <div>
+                                <%=
+                                    `${capitalizeFirstLetter(destination.location.city)}, ${capitalizeFirstLetter(destination.location.state)}`
+                                %>
+                            </div>
+                            <% }) %>
+                            <% } %>
+                        </td>
+                    </tr>
+                    <% }) %>
+                    </tbody>
+                </table>
+            </div>
         </div>
+        <nav aria-label="Page navigation example mx-auto">
+            <ul class="pagination pg-blue justify-content-end">
+                <% if (pagination.previous_page) { %>
+                <li class="page-item"><a href="/terminals?page=<%= pagination.previous %>"
+                                         class="page-link">Previous</a></li>
+                <% } %>
+                <% if (pagination.next_page) { %>
+                <li class="page-item"><a href="/terminals?page=<%= pagination.next %>" class="page-link">Next</a></li>
+                <% } %>
+            </ul>
+        </nav>
     </div>
-    <nav aria-label="Page navigation example mx-auto">
-        <ul class="pagination pg-blue justify-content-end">
-            <li class="page-item"><a class="page-link">Previous</a></li>
-            <li class="page-item"><a class="page-link">Next</a></li>
-        </ul>
-    </nav>
-</div>
-
+</section>
 <% include partials/footer.ejs %>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
