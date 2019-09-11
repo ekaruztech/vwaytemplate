@@ -114,4 +114,41 @@ footer .vm-footer p {
   font-weight: 500;
 }
 
+.aboutsec {
+  height: 200px;
+  color: white;
+  background-color: #3c88b5;
+}
+.aboutsec .abouthead {
+  font-weight: 700;
+}
+
+.whoweare {
+  color: #88a6b7;
+}
+
+.whowearetext {
+  color: #88a6b7;
+  font-size: 3vh;
+}
+
+.missionstat {
+  color: #88a6b7;
+  text-decoration: underline;
+}
+
+.missiontext {
+  color: #88a6b7;
+  font-size: 3vh;
+}
+
+.aboutimg {
+  height: 350px;
+}
+
+.card-body {
+  color: #88a6b7;
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=styles.css.map */
