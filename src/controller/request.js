@@ -65,6 +65,7 @@ const APPRequest = {
         return createRequest(config)
             .then(response => response,
                 err => {
+                    console.log('err >>>>>>>> ', err);
                     return {};
                 });
     }
