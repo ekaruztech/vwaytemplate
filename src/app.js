@@ -53,5 +53,4 @@ server.listen(port, function () {
     console.log('App listening on localhost:', port);
 });
 
-
 export default app

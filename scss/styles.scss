@@ -22,7 +22,7 @@ body {
 
 .headersection {
   background-image: url('../images/divine-banner-main.jpg');
-  height: 100vh - 20;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -60,7 +60,7 @@ body {
   font-weight: 400;
 }
 
-.trips {
+.trips, .contact, .about {
   min-height: 100vh - 20;
 }
 
@@ -166,7 +166,7 @@ footer {
 }
 
 .main-section {
-  min-height: 100vh - 20;
+  min-height: 100vh;
 }
 
 .bg-success {
