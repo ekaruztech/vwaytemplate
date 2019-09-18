@@ -68,7 +68,20 @@ const APPRequest = {
                     console.log('err >>>>>>>> ', err);
                     return {};
                 });
-    }
+    },
+
+  async getApi(query) {
+    const config = {
+      method: 'get',
+      url: '/api',
+      params: { population: JSON.stringify(['account']), ...query }
+    };
+    return createRequest(config)
+      .then(response => response,
+        err => {
+          return {};
+        });
+  }
 };
 
 export default APPRequest;

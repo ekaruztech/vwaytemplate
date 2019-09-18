@@ -7,8 +7,14 @@ export const AppController = {
     entry(req, res, next) {
         res.render('trips', { title: 'Divine Express', host: process.env.HOST });
     },
-    contact(req, res, next) {
-        return res.render('contact', { title: 'Divine Express' });
+    async contact(req, res, next) {
+        const { data: [api] } = await APPRequest.getApi({api_key: process.env.VOOMSWAY_API_KEY});
+        if (api.account) {
+            const { location, contact_info } = api.account;
+            res.render('contact', { title: 'Divine Express', location, contact_info });
+        } else {
+            res.render('contact', { title: 'Divine Express' });
+        }
     },
     about(req, res, next) {
         return res.render('about', { title: 'Divine Express' });
