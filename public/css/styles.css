@@ -13,7 +13,7 @@ body {
 
 .headersection {
   background-image: url("../images/divine-banner-main.jpg");
-    height: 100vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -125,8 +125,7 @@ footer {
   font-size: 16px; }
 
 .main-section {
-    min-height: 100vh;
-}
+  min-height: 100vh; }
 
 .bg-success {
   color: white !important;
