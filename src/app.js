@@ -7,6 +7,7 @@ import logger from 'morgan'
 import sassMiddleware from 'node-sass-middleware'
 import http from 'http'
 
+
 import routes from './routes/index';
 
 dotenv.config();
@@ -45,6 +46,7 @@ app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error');
 });
+
 
 const port = process.env.PORT || 3000;
 app.set('port', port);

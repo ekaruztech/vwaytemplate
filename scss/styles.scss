@@ -11,8 +11,11 @@ body {
   height: 50px;
   width: auto;
 }
+.navbar-toggler-icon{
+  color: #3c88b5 !important;
+}
 
-.navlink {
+.nav-link {
   .nav-link {
     color: $bg-primary;
     margin-right: 7px;
@@ -181,4 +184,8 @@ footer {
 }
 .page-link{
   color: #3c88b5 !important;
+}
+
+.brandlogo{
+  height: 20px;
 }
