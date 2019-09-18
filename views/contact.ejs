@@ -12,7 +12,6 @@
 </head>
 <body>
 <% include partials/navbar.ejs %>
-<<<<<<< Updated upstream
 <div class="contact">
     <div class="container">
         <section class="mb-4">
@@ -41,33 +40,6 @@
                                            placeholder=" Enter your name here">
 
                                 </div>
-=======
-<div class="container">
-    <section class="mb-4">
-
-        <!--Section heading-->
-        <h2 class="h1-responsive font-weight-bold text-center mt-4 contactHeading">Contact us</h2>
-        <!--Section description-->
-        <p class="text-center w-responsive mx-auto mb-5 headingtext ">Do you have any questions? Please do not hesitate
-            to contact us directly. Our team will come back to you within
-            a matter of hours to help you.</p>
-
-        <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form method="post" action="/contact">
-
-                    <!--Grid row-->
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-3">
-                                <input type="text" id="name" class="forminput" name="name" class="form-control"
-                                       placeholder=" Enter your name here">
-
->>>>>>> Stashed changes
                             </div>
                             <!--Grid column-->
 
@@ -114,7 +86,6 @@
 
                     </form>
 
-<<<<<<< Updated upstream
                     <div class="text-center text-md-left">
                         <a class="btn btn-primary btn-block btn-lg mb-5">Send</a>
                     </div>
@@ -139,44 +110,6 @@
                     </ul>
                 </div>
                 <!--Grid column-->
-=======
-
-                <div class="text-center text-md-left">
-                    <a class="btn btn-primary btn-block btn-lg mb-5">Send</a>
-                </div>
-                <div class="status">
-                    <% if (locals.errors) { %>
-                        <ul>
-                            <% Object.values(errors).forEach(function(error){ %>
-                                <li><%= error.msg %></li>
-                            <% }); %>
-                        </ul>
-                    <% } %>
-                </div>
-
-
-            </div>
-            <!--Grid column-->
-
-
-            <!--Grid column-->
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-3x  text-info mb-2"></i>
-                        <p class="contactinfo">24 akinbola close, Gbagada lagos, Nigeria</p>
-                    </li>
-
-                    <li><i class="fas fa-phone mt-4 fa-3x  text-info mb-2"></i>
-                        <p class="contactinfo">+234 01 234 567 89</p>
-                    </li>
-
-                    <li><i class="fas fa-envelope mt-4 fa-3x mb-2 "></i>
-                        <p class="contactinfo">contact@email.com</p>
-                    </li>
-                </ul>
-            </div>
-            <!--Grid column-->
->>>>>>> Stashed changes
 
             </div>
 
