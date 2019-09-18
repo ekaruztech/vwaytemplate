@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/ekaruztech/voomsway@v0.1.8/voomsway.css">
+    <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/ekaruztech/voomsway@0.2.3/voomsway.css">
     <link rel="stylesheet" href='<%= host %>/css/styles.css'/>
     <title><%= title %></title>
 </head>
 <body>
 <% include partials/navbar.ejs %>
-<div id="voomsway" class="trips">
-</div>
+<section id="voomsway" class="trips"
+         data-apikey="pk_decf3122c6353d5b72e5751831158109c2481f53310c7701fa"
+         data-apiUrl="https://voomsway.herokuapp.com/api/v1"
+         data-baseUrl="http://localhost:3000"
+         data-verifyRedirect="http://localhost:3001/verify-link"
+         data-passwordRedirect="http://localhost:3001/update-password"
+></section>
 <% include partials/footer.ejs %>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -23,7 +28,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/gh/ekaruztech/voomsway@v0.1.8/voomsway.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ekaruztech/voomsway@0.2.3/voomsway.js"></script>
 
 </body>
 </html>

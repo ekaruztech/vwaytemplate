@@ -90,7 +90,8 @@ var APPRequest = {
               return _context.abrupt("return", createRequest(config).then(function (response) {
                 return response;
               }, function (err) {
-                  return null;
+                console.log('err >>>>>>>> ', err);
+                return {};
               }));
 
             case 2:

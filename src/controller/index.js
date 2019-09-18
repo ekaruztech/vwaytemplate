@@ -4,14 +4,14 @@ export const AppController = {
     index(req, res, next) {
         return res.render('index', { title: 'Divine Express' });
     },
+    entry(req, res, next) {
+        res.render('trips', { title: 'Divine Express', host: process.env.HOST });
+    },
     contact(req, res, next) {
         return res.render('contact', { title: 'Divine Express' });
     },
     about(req, res, next) {
         return res.render('about', { title: 'Divine Express' });
-    },
-    trips(req, res, next) {
-        res.render('trips', { title: 'Divine Express', host: process.env.HOST });
     },
     async terminals(req, res, next) {
         const page = req.query.page || 1;
