@@ -11,10 +11,7 @@ var _controller = require("../controller");
 
 var router = (0, _express.Router)();
 router.get('/', _controller.AppController.index);
-router.get('/vway/trips', _controller.AppController.trips);
-router.get('/vway/trips/receipt/*', _controller.AppController.trips);
-router.get('/vway/trips/book/*', _controller.AppController.trips);
-router.get('/vway/trips/bookings', _controller.AppController.trips);
+router.get('/vway/*', _controller.AppController.entry);
 router.get('/terminals', _controller.AppController.terminals);
 router.get('/about', _controller.AppController.about);
 router.get('/contact', _controller.AppController.contact);
