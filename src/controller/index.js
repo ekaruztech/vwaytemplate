@@ -16,6 +16,10 @@ export const AppController = {
     async terminals(req, res, next) {
         const page = req.query.page || 1;
         const { _meta, data } = await APPRequest.getTerminals({ page });
-        res.render('terminals', { title: 'Divine Express', terminals: data, pagination: _meta.pagination });
+        let response = { title: 'Divine Express' };
+        if (data && _meta) {
+            response = { ...response, terminals: data, pagination: _meta.pagination }
+        }
+        res.render('terminals', response);
     }
 };
