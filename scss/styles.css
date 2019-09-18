@@ -8,7 +8,11 @@ body {
   width: auto;
 }
 
-.navlink .nav-link {
+.navbar-toggler-icon {
+  color: #3c88b5 !important;
+}
+
+.nav-link .nav-link {
   color: #3c88b5;
   margin-right: 7px;
   font-size: 13px;
@@ -16,7 +20,7 @@ body {
 
 .headersection {
   background-image: url("../images/divine-banner-main.jpg");
-  height: 80vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -54,7 +58,7 @@ body {
   font-weight: 400;
 }
 
-.trips {
+.trips, .contact, .about {
   min-height: 80vh;
 }
 
@@ -115,12 +119,17 @@ footer .vm-footer p {
 }
 
 .aboutsec {
-  height: 200px;
+  padding: 20px;
+}
+
+.section-title {
+  padding: 20px;
   color: white;
   background-color: #3c88b5;
 }
-.aboutsec .abouthead {
-  font-weight: 700;
+.section-title .title {
+  font-weight: 500;
+  margin: auto 0;
 }
 
 .whoweare {
@@ -150,18 +159,9 @@ footer .vm-footer p {
   color: #88a6b7;
   font-size: 16px;
 }
-.card-body .main-section {
-  min-height: 80vh;
-}
 
-.terminalheader {
-  height: 150px;
-  color: white;
-  background-color: #3c88b5;
-}
-.terminalheader .terminaltitle {
-  font-size: 40px;
-  font-weight: 700;
+.main-section {
+  min-height: 100vh;
 }
 
 .bg-success {
@@ -177,6 +177,10 @@ footer .vm-footer p {
 
 .page-link {
   color: #3c88b5 !important;
+}
+
+.brandlogo {
+  height: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

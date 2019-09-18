@@ -6,6 +6,9 @@ body {
   height: 50px;
   width: auto; }
 
+.navbar-toggler-icon {
+  color: #3c88b5 !important; }
+
 .navlink .nav-link {
   color: #3c88b5;
   margin-right: 7px;
@@ -125,8 +128,12 @@ footer {
   font-size: 16px; }
 
 .main-section {
+<<<<<<< Updated upstream
     min-height: 100vh;
 }
+=======
+  min-height: 80vh; }
+>>>>>>> Stashed changes
 
 .bg-success {
   color: white !important;
