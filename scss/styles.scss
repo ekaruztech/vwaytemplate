@@ -189,3 +189,9 @@ footer {
 .brandlogo{
   height: 50px !important;
 }
+
+@media screen and (max-width: 560px){
+  .welcomediv{
+    font-size: 28px !important;
+  }
+}
