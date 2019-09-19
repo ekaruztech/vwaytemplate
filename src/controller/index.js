@@ -8,9 +8,8 @@ export const AppController = {
         res.render('trips', { title: 'Divine Express', host: process.env.HOST });
     },
     async contact(req, res, next) {
-        const { data: [api] } = await APPRequest.getApi({api_key: process.env.VOOMSWAY_API_KEY});
-        if (api.account) {
-            const { location, contact_info } = api.account;
+        const { data: { location, contact_info } } = await APPRequest.getAccount(process.env.VOOMSWAY_API_KEY);
+        if (location || contact_info) {
             res.render('contact', { title: 'Divine Express', location, contact_info });
         } else {
             res.render('contact', { title: 'Divine Express' });
