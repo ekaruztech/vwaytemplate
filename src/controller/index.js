@@ -4,8 +4,9 @@ export const AppController = {
     index(req, res, next) {
         return res.render('index', { title: 'Divine Express' });
     },
-    entry(req, res, next) {
-        res.render('trips', { title: 'Divine Express', host: process.env.HOST });
+    async entry(req, res, next) {
+        const { data: { social_auth_keys } } = await APPRequest.getAccount(process.env.VOOMSWAY_API_KEY);
+        res.render('trips', { title: 'Divine Express', host: process.env.HOST, social_auth_keys });
     },
     async contact(req, res, next) {
         const { data: { location, contact_info } } = await APPRequest.getAccount(process.env.VOOMSWAY_API_KEY);
