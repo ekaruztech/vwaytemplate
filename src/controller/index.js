@@ -4,9 +4,14 @@ export const AppController = {
     index(req, res, next) {
         return res.render('index', { title: 'Divine Express' });
     },
-    contact(req, res, next) {
-        return res.render('contact', { title: 'Divine Express' });
-    },
+	async contact(req, res, next) {
+		const { data: { location, contact_info } } = await APPRequest.getAccount(process.env.VOOMSWAY_API_KEY);
+		if (location || contact_info) {
+			res.render('contact', { title: 'Divine Express', location, contact_info });
+		} else {
+			res.render('contact', { title: 'Divine Express' });
+		}
+	},
     about(req, res, next) {
         return res.render('about', { title: 'Divine Express' });
     },
