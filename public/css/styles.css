@@ -9,14 +9,14 @@ body {
 .navbar-toggler-icon {
   color: #3c88b5 !important; }
 
-.navlink .nav-link {
+.nav-link .nav-link {
   color: #3c88b5;
   margin-right: 7px;
   font-size: 13px; }
 
 .headersection {
   background-image: url("../images/divine-banner-main.jpg");
-    height: 100vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -128,12 +128,7 @@ footer {
   font-size: 16px; }
 
 .main-section {
-<<<<<<< Updated upstream
-    min-height: 100vh;
-}
-=======
-  min-height: 80vh; }
->>>>>>> Stashed changes
+  min-height: 100vh; }
 
 .bg-success {
   color: white !important;
@@ -146,3 +141,6 @@ footer {
 
 .page-link {
   color: #3c88b5 !important; }
+
+.brandlogo {
+  height: 50px !important; }

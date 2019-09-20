@@ -90,7 +90,8 @@ var APPRequest = {
               return _context.abrupt("return", createRequest(config).then(function (response) {
                 return response;
               }, function (err) {
-                  return null;
+                console.log('err >>>>>>>> ', err);
+                return {};
               }));
 
             case 2:
@@ -106,6 +107,42 @@ var APPRequest = {
     }
 
     return getTerminals;
+  }(),
+  getApi: function () {
+    var _getApi = (0, _asyncToGenerator2["default"])(
+    /*#__PURE__*/
+    _regenerator["default"].mark(function _callee2(query) {
+      var config;
+      return _regenerator["default"].wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              config = {
+                method: 'get',
+                url: '/api',
+                params: _objectSpread({
+                  population: JSON.stringify(['account'])
+                }, query)
+              };
+              return _context2.abrupt("return", createRequest(config).then(function (response) {
+                return response;
+              }, function (err) {
+                return {};
+              }));
+
+            case 2:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }));
+
+    function getApi(_x2) {
+      return _getApi.apply(this, arguments);
+    }
+
+    return getApi;
   }()
 };
 var _default = APPRequest;

@@ -65,9 +65,23 @@ const APPRequest = {
         return createRequest(config)
             .then(response => response,
                 err => {
-                    return null;
+                    console.log('err >>>>>>>> ', err);
+                    return {};
                 });
-    }
+    },
+
+  async getAccount(apiKey) {
+    const config = {
+      method: 'get',
+      url: `/api/account/${apiKey}`,
+      params: { population: JSON.stringify(['account']), ...query }
+    };
+    return createRequest(config)
+      .then(response => response,
+        err => {
+          return {};
+        });
+  }
 };
 
 export default APPRequest;
