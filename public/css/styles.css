@@ -150,7 +150,8 @@ footer {
     font-size: 28px !important; } }
 
 .vm-voomsway-filter {
-  background-color: white;
-}
+  background-color: white; }
   .vm-voomsway-filter .vm-checkbox-label {
     margin: 0; }
+  .vm-voomsway-filter .vm-check-ticket-section .ticket-field-input {
+    margin-right: 12px; }
