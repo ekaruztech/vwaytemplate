@@ -73,8 +73,7 @@ const APPRequest = {
   async getAccount(apiKey) {
     const config = {
       method: 'get',
-      url: `/api/account/${apiKey}`,
-      params: { population: JSON.stringify(['account']), ...query }
+	    url: `/api/account/${apiKey}`
     };
     return createRequest(config)
       .then(response => response,
