@@ -1,4 +1,5 @@
 $bg-primary: #c52b32;
+$bg-headPrimary: #ededed;
 $accent-color: #151933;
 $accent-light-color: #e7ece9;
 
@@ -24,9 +25,9 @@ body {
 }
 
 .headersection {
-  height: 100vh - 20;
-  background: url('../images/bg.png') no-repeat center center;
-  //background-size: cover;
+  height: 100vh - 25;
+  background: url('../images/divine-web-ban.png') no-repeat center center;
+  background-size: cover;
 }
 
 .populartrip {
@@ -50,13 +51,18 @@ body {
 }
 
 .welcomediv {
-  color: #0253a1;
-  font-size: 40px;
+  text-transform: uppercase;
+  color: #292626;
+  font-size: 35px;
   font-weight: 500;
+  .welcomeColor {
+    color: #c52b32;
+    font-weight: 700;
+  }
 }
 
 .welcometext {
-  color: #0253a1;
+  color: #a4a4a4;
   font-size: 18px;
   font-weight: 400;
 }
@@ -66,7 +72,7 @@ body {
 }
 
 footer {
-  background: $bg-primary;
+  background: #361737;
   min-height: 10vh;
   .vm-footer {
     height: 12vh;
@@ -128,15 +134,11 @@ footer {
   padding: 20px;
 }
 
-.section-title {
-  padding: 20px;
-  color: white;
-  background-color: #3c88b5;
+
   .title {
     font-weight: 500;
     margin: auto 0;
   }
-}
 
 .whoweare {
   color: #88a6b7;
@@ -188,27 +190,57 @@ footer {
   height: 50px !important;
 }
 
+//Receipt css
+.receipt-title {
+  padding: 20px;
+  color: white;
+  background-color: $accent-light-color;
+}
+.h-size {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn-dark {
+  background-color: #94a1b8;
+  border: 0;
+  &:hover {
+    background-color: #361737 !important;
+  }
+}
+
+.thead-purple {
+  background-color: #361737 !important;
+  color: #ffffff;
+}
+
+
 @media screen and (max-width: 560px){
   .welcomediv{
     font-size: 28px !important;
   }
 }
 
+//form start
 .vm-voomsway-filter {
-  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background:rgba(255,255,255, 0.9);
   // one way options
   .vm-checkbox-label {
     margin: 0;
     &.active {
-      //
-      //background-color: green;
+      background-color: #c52b32;
+      border: 0;
+
     }
   }
   // filter search button
   .vm-btn-primary {
-    //background-color: red;
+    background-color: #c52b32 !important;
+    border: 0;
     &:hover {
-      //background-color: purple;
+      background-color: #bc1119 !important;
     }
     &:disabled {
       &:hover {

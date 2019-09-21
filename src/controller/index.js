@@ -15,6 +15,9 @@ export const AppController = {
     about(req, res, next) {
         return res.render('about', { title: 'Divine Express' });
     },
+	receipt(req, res, next) {
+		return res.render('receipt', { title: 'Divine Express' });
+	},
 	async entry(req, res, next) {
 		const { data: { social_auth_keys } } = await APPRequest.getAccount(process.env.VOOMSWAY_API_KEY);
 		console.log('social_auth_keys : ', social_auth_keys);

@@ -15,9 +15,9 @@ body {
   font-size: 13px; }
 
 .headersection {
-  height: 80vh;
-  background: url("../images/bg.png") no-repeat center center;
-}
+  height: 75vh;
+  background: url("../images/divine-web-ban.png") no-repeat center center;
+  background-size: cover; }
 
 .populartrip {
   color: #3c88b5;
@@ -36,12 +36,16 @@ body {
   text-align: end !important; }
 
 .welcomediv {
-  color: #0253a1;
-  font-size: 40px;
+  text-transform: uppercase;
+  color: #292626;
+  font-size: 35px;
   font-weight: 500; }
+  .welcomediv .welcomeColor {
+    color: #c52b32;
+    font-weight: 700; }
 
 .welcometext {
-  color: #0253a1;
+  color: #a4a4a4;
   font-size: 18px;
   font-weight: 400; }
 
@@ -49,7 +53,7 @@ body {
   min-height: 80vh; }
 
 footer {
-  background: #c52b32;
+  background: #361737;
   min-height: 10vh; }
   footer .vm-footer {
     height: 12vh; }
@@ -83,8 +87,7 @@ footer {
 
 .btn-primary {
   color: white !important;
-  background-color: #c52b32;
-}
+  background-color: #c52b32; }
 
 .fa-3x {
   color: #3c88b5 !important; }
@@ -96,13 +99,9 @@ footer {
 .aboutsec {
   padding: 20px; }
 
-.section-title {
-  padding: 20px;
-  color: white;
-  background-color: #3c88b5; }
-  .section-title .title {
-    font-weight: 500;
-    margin: auto 0; }
+.title {
+  font-weight: 500;
+  margin: auto 0; }
 
 .whoweare {
   color: #88a6b7; }
@@ -144,12 +143,40 @@ footer {
 .brandlogo {
   height: 50px !important; }
 
+.receipt-title {
+  padding: 20px;
+  color: white;
+  background-color: #e7ece9; }
+
+.h-size {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.btn-dark {
+  background-color: #94a1b8;
+  border: 0; }
+  .btn-dark:hover {
+    background-color: #361737 !important; }
+
+.thead-purple {
+  background-color: #361737 !important;
+  color: #ffffff; }
+
 @media screen and (max-width: 560px) {
   .welcomediv {
     font-size: 28px !important; } }
 
 .vm-voomsway-filter {
-  background-color: white;
-}
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: rgba(255, 255, 255, 0.9); }
   .vm-voomsway-filter .vm-checkbox-label {
     margin: 0; }
+    .vm-voomsway-filter .vm-checkbox-label.active {
+      background-color: #c52b32;
+      border: 0; }
+  .vm-voomsway-filter .vm-btn-primary {
+    background-color: #c52b32 !important;
+    border: 0; }
+    .vm-voomsway-filter .vm-btn-primary:hover {
+      background-color: #bc1119 !important; }
