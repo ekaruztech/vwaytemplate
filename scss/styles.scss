@@ -1,4 +1,4 @@
-$bg-primary: #3c88b5;
+$bg-primary: #c52b32;
 $accent-color: #151933;
 $accent-light-color: #e7ece9;
 
@@ -24,11 +24,9 @@ body {
 }
 
 .headersection {
-  background-image: url('../images/divine-banner-main.jpg');
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  height: 100vh - 20;
+  background: url('../images/bg.png') no-repeat center center;
+  //background-size: cover;
 }
 
 .populartrip {
