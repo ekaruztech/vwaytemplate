@@ -144,3 +144,18 @@ footer {
 
 .brandlogo {
   height: 50px !important; }
+
+@media screen and (max-width: 560px) {
+  .welcomediv {
+    font-size: 28px !important; } }
+
+.vm-voomsway-filter {
+  background-color: blue; }
+  .vm-voomsway-filter .vm-checkbox-label.active {
+    background-color: green; }
+  .vm-voomsway-filter .vm-btn-primary {
+    background-color: red; }
+    .vm-voomsway-filter .vm-btn-primary:hover {
+      background-color: purple; }
+    .vm-voomsway-filter .vm-btn-primary:disabled:hover {
+      background-color: white !important; }

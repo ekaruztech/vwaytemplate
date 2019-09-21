@@ -195,3 +195,49 @@ footer {
     font-size: 28px !important;
   }
 }
+
+.vm-voomsway-filter {
+  background-color: blue;
+  // one way options
+  .vm-checkbox-label {
+    //
+    &.active {
+      //
+      //background-color: green;
+    }
+  }
+  // filter search button
+  .vm-btn-primary {
+    background-color: red;
+    &:hover {
+      //background-color: purple;
+    }
+    &:disabled {
+      &:hover {
+        //background-color: white !important;
+      }
+    }
+  }
+
+  // the menu dropdown
+  .vm-filter-fields-section .react-select__menu {
+
+  }
+  // option in dropdown
+  .vm-filter-fields-section .react-select__menu .react-select__option {
+
+  }
+  // option hovered over
+  .vm-filter-fields-section .react-select__menu .react-select__option--is-focused {
+
+  }
+  // the react-select div - what user sees as input
+  .vm-filter-fields-section .react-select__control {
+    //background-color: blue;
+  }
+
+  // div of selected value or placeholder
+  .react-select__single-value,  .react-select__placeholder {
+  }
+}
+
