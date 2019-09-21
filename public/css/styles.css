@@ -16,8 +16,7 @@ body {
 
 .headersection {
   height: 80vh;
-  background: url("../images/bg.png") no-repeat center center;
-}
+  background: url("../images/bg.png") no-repeat center center; }
 
 .populartrip {
   color: #3c88b5;
@@ -83,8 +82,7 @@ footer {
 
 .btn-primary {
   color: white !important;
-  background-color: #c52b32;
-}
+  background-color: #c52b32; }
 
 .fa-3x {
   color: #3c88b5 !important; }
