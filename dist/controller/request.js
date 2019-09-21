@@ -119,10 +119,7 @@ var APPRequest = {
             case 0:
               config = {
                 method: 'get',
-                url: "/api/account/".concat(apiKey),
-                params: _objectSpread({
-                  population: JSON.stringify(['account'])
-                }, query)
+                url: "/api/account/".concat(apiKey)
               };
               return _context2.abrupt("return", createRequest(config).then(function (response) {
                 return response;

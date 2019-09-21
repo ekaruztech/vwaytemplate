@@ -197,10 +197,10 @@ footer {
 }
 
 .vm-voomsway-filter {
-  background-color: blue;
+  //background-color: blue;
   // one way options
   .vm-checkbox-label {
-    //
+    margin: 0;
     &.active {
       //
       //background-color: green;
@@ -208,7 +208,7 @@ footer {
   }
   // filter search button
   .vm-btn-primary {
-    background-color: red;
+    //background-color: red;
     &:hover {
       //background-color: purple;
     }
