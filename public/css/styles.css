@@ -150,6 +150,7 @@ footer {
     font-size: 28px !important; } }
 
 .vm-voomsway-filter {
-  background-color: blue; }
+    background-color: white;
+}
   .vm-voomsway-filter .vm-checkbox-label {
     margin: 0; }
