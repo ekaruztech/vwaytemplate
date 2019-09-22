@@ -12,7 +12,8 @@ body {
   height: 50px;
   width: auto;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
   color: #3c88b5 !important;
 }
 
@@ -25,7 +26,7 @@ body {
 }
 
 .headersection {
-  height: 100vh - 25;
+  height: 100vh - 20;
   background: url('../images/divine-web-ban.png') no-repeat center center;
   background-size: cover;
 }
@@ -134,11 +135,10 @@ footer {
   padding: 20px;
 }
 
-
-  .title {
-    font-weight: 500;
-    margin: auto 0;
-  }
+.title {
+  font-weight: 500;
+  margin: auto 0;
+}
 
 .whoweare {
   color: #88a6b7;
@@ -182,11 +182,12 @@ footer {
   color: #3c88b5 !important;
   font-size: 16px;
 }
-.page-link{
+
+.page-link {
   color: #3c88b5 !important;
 }
 
-.brandlogo{
+.brandlogo {
   height: 50px !important;
 }
 
@@ -196,6 +197,7 @@ footer {
   color: white;
   background-color: $accent-light-color;
 }
+
 .h-size {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -215,9 +217,8 @@ footer {
   color: #ffffff;
 }
 
-
-@media screen and (max-width: 560px){
-  .welcomediv{
+@media screen and (max-width: 560px) {
+  .welcomediv {
     font-size: 28px !important;
   }
 }
@@ -225,7 +226,7 @@ footer {
 //form start
 .vm-voomsway-filter {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background:rgba(255,255,255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   // one way options
   .vm-checkbox-label {
     margin: 0;
@@ -251,7 +252,7 @@ footer {
 
   .vm-filter-fields-section {
     // the menu dropdown
-    .react-select__menu {
+    .react-select__menu  {
     }
     // option in dropdown
     .react-select__menu .react-select__option {
@@ -265,7 +266,7 @@ footer {
     }
   }
   // div of selected value or placeholder
-  .react-select__single-value,  .react-select__placeholder {
+  .react-select__single-value, .react-select__placeholder {
   }
 
   .vm-check-ticket-section {
@@ -280,10 +281,12 @@ footer {
 
   // tab section
   .vm-tab-section {
-
     .vm-tab-label {
+      color: #401010 !important;
       // when tab active
       &.vm-active-tab {
+        border-bottom: 3px solid #c52b32;
+        color: #c52b32 !important;
       }
     }
   }
