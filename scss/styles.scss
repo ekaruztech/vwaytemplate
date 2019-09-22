@@ -249,25 +249,43 @@ footer {
     }
   }
 
-  // the menu dropdown
-  .vm-filter-fields-section .react-select__menu {
-
+  .vm-filter-fields-section {
+    // the menu dropdown
+    .react-select__menu {
+    }
+    // option in dropdown
+    .react-select__menu .react-select__option {
+    }
+    // option hovered over
+    .react-select__menu .react-select__option--is-focused {
+    }
+    // the react-select div - what user sees as input
+    .react-select__control {
+      //background-color: blue;
+    }
   }
-  // option in dropdown
-  .vm-filter-fields-section .react-select__menu .react-select__option {
-
-  }
-  // option hovered over
-  .vm-filter-fields-section .react-select__menu .react-select__option--is-focused {
-
-  }
-  // the react-select div - what user sees as input
-  .vm-filter-fields-section .react-select__control {
-    //background-color: blue;
-  }
-
   // div of selected value or placeholder
   .react-select__single-value,  .react-select__placeholder {
+  }
+
+  .vm-check-ticket-section {
+    // input field for check ticket
+    .ticket-field-input {
+      margin-right: 12px;
+      &.active, &:active,
+      &.focus, &:focus {
+      }
+    }
+  }
+
+  // tab section
+  .vm-tab-section {
+
+    .vm-tab-label {
+      // when tab active
+      &.vm-active-tab {
+      }
+    }
   }
 }
 
