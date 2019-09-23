@@ -52,9 +52,6 @@ body {
   font-size: 18px;
   font-weight: 400; }
 
-.trips, .contact, .about {
-  min-height: 80vh; }
-
 footer {
     background: #361737;
   min-height: 10vh; }
@@ -65,62 +62,18 @@ footer {
       font-size: 14px;
       margin: auto 0; }
 
-.contactHeading {
-  color: #c52b32;
-  font-size: 7vh; }
-
-.headingtext {
-  color: #c52b32;
-  font-size: 2vh; }
-
-.forminput {
-  width: 100%;
-  height: 60px;
-  border: 1px solid #3c88b5 !important; }
-  .forminput::placeholder {
-    color: #3c88b5;
-    font-size: 18px; }
-
-.messagesec {
-  width: 100%;
-  height: 120px; }
-  .messagesec::placeholder {
-    color: #3c88b5;
-    font-size: 18px; }
-
-.btn-primary {
-  color: white !important;
-  background-color: #c52b32; }
-
 .fa-3x {
-  color: #3c88b5 !important; }
+    color: #b4b4b4 !important;
+}
 
 .contactinfo {
-  color: #3c88b5;
+    color: #b4b4b4;
   font-weight: 500; }
-
-.aboutsec {
-  padding: 20px; }
 
 .title {
     font-weight: 500;
     margin: auto 0;
 }
-
-.whoweare {
-  color: #88a6b7; }
-
-.whowearetext {
-  color: #88a6b7;
-  font-size: 3vh; }
-
-.missionstat {
-  color: #88a6b7;
-  text-decoration: underline; }
-
-.missiontext {
-  color: #88a6b7;
-  font-size: 3vh; }
 
 .aboutimg {
   height: 350px; }
@@ -130,7 +83,59 @@ footer {
   font-size: 16px; }
 
 .main-section {
-  min-height: 100vh; }
+    min-height: 80vh;
+}
+
+.main-section .contact_title {
+    color: #361737;
+    font-size: 18px;
+}
+
+.main-section .section-title {
+    background: #361737;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.main-section .contact_form .btn-primary {
+    background-color: #c52b32;
+    color: #ffffff;
+    border-color: #c52b32;
+}
+
+.main-section .contact_form .form-control {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #b4b4b4 !important;
+}
+
+.main-section .contact_form .form-control::placeholder {
+    color: #b4b4b4;
+    font-size: 18px;
+}
+
+.main-section .contact_form textarea {
+    width: 100%;
+    height: 120px;
+}
+
+.main-section .contact_form textarea::placeholder {
+    color: #b4b4b4;
+    font-size: 18px;
+}
+
+.main-section .about {
+    padding-top: 40px;
+}
+
+.main-section .about h1 {
+    color: #361737;
+}
+
+.main-section .about p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 
 .bg-success {
   color: white !important;
@@ -138,11 +143,12 @@ footer {
   font-size: 20px; }
 
 .tablebody {
-  color: #3c88b5 !important;
+    color: #b4b4b4 !important;
   font-size: 16px; }
 
 .page-link {
-  color: #3c88b5 !important; }
+    color: #b4b4b4 !important;
+}
 
 .brandlogo {
   height: 50px !important; }

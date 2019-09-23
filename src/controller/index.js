@@ -31,9 +31,9 @@ export const AppController = {
 		const page = req.query.page || 1;
 		const { _meta, data } = await APPRequest.getTerminals({ page });
 		if (data) {
-			res.render('terminals', { title: 'Captain Hamilton', terminals: data, pagination: _meta.pagination });
+			res.render('terminals', { title: 'Divine Express', terminals: data, pagination: _meta.pagination });
 		} else {
-			res.render('terminals', { title: 'Captain Hamilton', terminals: [], pagination: null });
+			res.render('terminals', { title: 'Divine Express', terminals: [], pagination: null });
 		}
 	}
 };
