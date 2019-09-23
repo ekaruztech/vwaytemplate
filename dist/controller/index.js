@@ -134,13 +134,13 @@ var AppController = {
 
               if (data) {
                 res.render('terminals', {
-                  title: 'Captain Hamilton',
+	                title: 'Divine Express',
                   terminals: data,
                   pagination: _meta.pagination
                 });
               } else {
                 res.render('terminals', {
-                  title: 'Captain Hamilton',
+	                title: 'Divine Express',
                   terminals: [],
                   pagination: null
                 });

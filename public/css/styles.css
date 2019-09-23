@@ -133,6 +133,14 @@ footer {
     margin-bottom: 30px;
 }
 
+.main-section .terminal {
+    padding: 20px;
+}
+
+.main-section .terminal .card {
+    height: 300px;
+}
+
 .bg-success {
   color: white !important;
   background-color: #3c88b5 !important;
