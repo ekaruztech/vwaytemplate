@@ -11,11 +11,7 @@
     <title><%= title %></title>
 </head>
 <body>
-<%
-const capitalizeFirstLetter = (string) => {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-};
-%>
+
 <% include partials/navbar.ejs %>
 <section class="main-section">
     <div class="container-fluid section-title">
@@ -25,54 +21,20 @@ const capitalizeFirstLetter = (string) => {
             </div>
         </div>
     </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-12 mx-auto">
-                <table class="table table-bordered">
-                    <thead class="bg-success text-white">
-                    <tr>
-                        <th scope="col">State</th>
-                        <th scope="col">Branch</th>
-                        <th scope="col">Address</th>
-                        <th scope="col">Contact Address</th>
-                        <th scope="col">Routes</th>
-                    </tr>
-                    </thead>
-                    <tbody class="tablebody">
-                    <% terminals.forEach( (terminal) => { %>
-                    <tr>
-                        <td scope="row"><%= `${capitalizeFirstLetter(terminal.location.state)}` %></td>
-                        <td scope="row"><%= `${capitalizeFirstLetter(terminal.location.city)}, ${capitalizeFirstLetter(terminal.location.state)}` %></td>
-                        <td><%= `${terminal.location.street}, ${terminal.location.city}, ${terminal.location.state}` %></td>
-                        <td>email@yourcompany.com, +2348156786734</td>
-                        <td>
-                            <% if (terminal.destinations && terminal.destinations.length) { %>
-                            <% terminal.destinations.forEach((destination) =>  { %>
-                            <div>
-                                <%=
-                                    `${capitalizeFirstLetter(destination.location.city)}, ${capitalizeFirstLetter(destination.location.state)}`
-                                %>
-                            </div>
-                            <% }) %>
-                            <% } %>
-                        </td>
-                    </tr>
-                    <% }) %>
-                    </tbody>
-                </table>
+    <div class="container mt-3">
+        <div class="row mt-3">
+            <div class="col-lg-4 col-sm-12 ">
+                <div class="card bg-white shadow-sm mt-3">
+                    <div class="card-body mt-2">
+                        <h2 class="card-title">State</h2>
+                        <p class="card-title mt-2"><i class="fas fa-location-arrow fa-lg"></i> Branch</p>
+                        <p class="card-title mt-2"><i class="fas fa-map-marker-alt fa-lg"></i> Address</p>
+                        <p class="card-title mt-2"><i class="fas fa-phone-volume fa-lg"></i> Contact Details</p>
+                        <p class="card-title mb-2"><i class="fas fa-shuttle-van fa-lg"></i> Routes</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <nav aria-label="Page navigation example mx-auto">
-            <ul class="pagination pg-blue justify-content-end">
-                <% if (pagination.previous_page) { %>
-                <li class="page-item"><a href="/terminals?page=<%= pagination.previous %>"
-                                         class="page-link">Previous</a></li>
-                <% } %>
-                <% if (pagination.next_page) { %>
-                <li class="page-item"><a href="/terminals?page=<%= pagination.next %>" class="page-link">Next</a></li>
-                <% } %>
-            </ul>
-        </nav>
     </div>
 </section>
 <% include partials/footer.ejs %>

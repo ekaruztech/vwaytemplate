@@ -16,9 +16,8 @@ body {
 
 .headersection {
   height: 80vh;
-    background: url("../images/divine-web-ban.png") no-repeat center center;
-    background-size: cover;
-}
+  background: url("../images/divine-web-ban.png") no-repeat center center;
+  background-size: cover; }
 
 .populartrip {
   color: #3c88b5;
@@ -37,23 +36,21 @@ body {
   text-align: end !important; }
 
 .welcomediv {
-    text-transform: uppercase;
-    color: #292626;
-    font-size: 35px;
+  text-transform: uppercase;
+  color: #292626;
+  font-size: 35px;
   font-weight: 500; }
-
-.welcomediv .welcomeColor {
+  .welcomediv .welcomeColor {
     color: #c52b32;
-    font-weight: 700;
-}
+    font-weight: 700; }
 
 .welcometext {
-    color: #a4a4a4;
+  color: #a4a4a4;
   font-size: 18px;
   font-weight: 400; }
 
 footer {
-    background: #361737;
+  background: #361737;
   min-height: 10vh; }
   footer .vm-footer {
     height: 12vh; }
@@ -71,9 +68,8 @@ footer {
   font-weight: 500; }
 
 .title {
-    font-weight: 500;
-    margin: auto 0;
-}
+  font-weight: 500;
+  margin: auto 0; }
 
 .aboutimg {
   height: 350px; }
@@ -154,63 +150,50 @@ footer {
   height: 50px !important; }
 
 .receipt-title {
-    padding: 20px;
-    color: white;
-    background-color: #e7ece9;
-}
+  padding: 20px;
+  color: white;
+  background-color: #e7ece9; }
 
 .h-size {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 500;
-}
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500; }
 
 .btn-dark {
-    background-color: #94a1b8;
-    border: 0;
-}
-
-.btn-dark:hover {
-    background-color: #361737 !important;
-}
+  background-color: #94a1b8;
+  border: 0; }
+  .btn-dark:hover {
+    background-color: #361737 !important; }
 
 .thead-purple {
-    background-color: #361737 !important;
-    color: #ffffff;
-}
+  background-color: #361737 !important;
+  color: #ffffff; }
 
 @media screen and (max-width: 560px) {
   .welcomediv {
     font-size: 28px !important; } }
 
 .vm-voomsway-filter {
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: rgba(255, 255, 255, 0.9);
-}
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: rgba(255, 255, 255, 0.9); }
   .vm-voomsway-filter .vm-checkbox-label {
     margin: 0; }
-
-.vm-voomsway-filter .vm-checkbox-label.active {
-    background-color: #c52b32;
-    border: 0;
-}
-
-.vm-voomsway-filter .vm-btn-primary {
+    .vm-voomsway-filter .vm-checkbox-label.active {
+      background-color: #c52b32;
+      border: 0; }
+  .vm-voomsway-filter .vm-btn-primary {
     background-color: #c52b32 !important;
-    border: 0;
-}
-
-.vm-voomsway-filter .vm-btn-primary:hover {
-    background-color: #bc1119 !important;
-}
+    border: 0; }
+    .vm-voomsway-filter .vm-btn-primary:hover {
+      background-color: #bc1119 !important; }
   .vm-voomsway-filter .vm-check-ticket-section .ticket-field-input {
     margin-right: 12px; }
+  .vm-voomsway-filter .vm-tab-section .vm-tab-label {
+    color: #401010 !important; }
+    .vm-voomsway-filter .vm-tab-section .vm-tab-label.vm-active-tab {
+      border-bottom: 3px solid #c52b32;
+      color: #c52b32 !important; }
 
-.vm-voomsway-filter .vm-tab-section .vm-tab-label {
-    color: #401010 !important;
-}
-
-.vm-voomsway-filter .vm-tab-section .vm-tab-label.vm-active-tab {
-    border-bottom: 3px solid #c52b32;
-    color: #c52b32 !important;
-}
+.card-body {
+  color: #989898 !important;
+  font-size: 14px !important; }
