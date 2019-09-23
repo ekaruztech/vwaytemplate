@@ -69,11 +69,11 @@ var AppController = {
       title: 'Divine Express'
     });
   },
-	receipt: function receipt(req, res, next) {
-		return res.render('receipt', {
-			title: 'Divine Express'
-		});
-	},
+  receipt: function receipt(req, res, next) {
+    return res.render('receipt', {
+      title: 'Divine Express'
+    });
+  },
   entry: function () {
     var _entry = (0, _asyncToGenerator2["default"])(
     /*#__PURE__*/
