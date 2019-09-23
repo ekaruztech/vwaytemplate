@@ -60,11 +60,10 @@ footer {
       margin: auto 0; }
 
 .fa-3x {
-    color: #b4b4b4 !important;
-}
+  color: #b4b4b4 !important; }
 
 .contactinfo {
-    color: #b4b4b4;
+  color: #b4b4b4;
   font-weight: 500; }
 
 .title {
@@ -79,67 +78,42 @@ footer {
   font-size: 16px; }
 
 .main-section {
-    min-height: 80vh;
-}
-
-.main-section .contact_title {
+  min-height: 80vh; }
+  .main-section .contact_title {
     color: #361737;
-    font-size: 18px;
-}
-
-.main-section .section-title {
+    font-size: 18px; }
+  .main-section .section-title {
     background: #361737;
     color: #FFFFFF;
-    padding: 20px;
-}
-
-.main-section .contact_form .btn-primary {
+    padding: 20px; }
+  .main-section .contact_form .btn-primary {
     background-color: #c52b32;
     color: #ffffff;
-    border-color: #c52b32;
-}
-
-.main-section .contact_form .form-control {
+    border-color: #c52b32; }
+  .main-section .contact_form .form-control {
     width: 100%;
     height: 60px;
-    border: 1px solid #b4b4b4 !important;
-}
-
-.main-section .contact_form .form-control::placeholder {
-    color: #b4b4b4;
-    font-size: 18px;
-}
-
-.main-section .contact_form textarea {
+    border: 1px solid #b4b4b4 !important; }
+    .main-section .contact_form .form-control::placeholder {
+      color: #b4b4b4;
+      font-size: 18px; }
+  .main-section .contact_form textarea {
     width: 100%;
-    height: 120px;
-}
-
-.main-section .contact_form textarea::placeholder {
-    color: #b4b4b4;
-    font-size: 18px;
-}
-
-.main-section .about {
-    padding-top: 40px;
-}
-
-.main-section .about h1 {
-    color: #361737;
-}
-
-.main-section .about p {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.main-section .terminal {
-    padding: 20px;
-}
-
-.main-section .terminal .card {
-    height: 300px;
-}
+    height: 120px; }
+    .main-section .contact_form textarea::placeholder {
+      color: #b4b4b4;
+      font-size: 18px; }
+  .main-section .about {
+    padding-top: 40px; }
+    .main-section .about h1 {
+      color: #361737; }
+    .main-section .about p {
+      font-size: 20px;
+      margin-bottom: 30px; }
+  .main-section .terminal {
+    padding: 20px; }
+    .main-section .terminal .card {
+      height: 300px; }
 
 .bg-success {
   color: white !important;
@@ -147,12 +121,11 @@ footer {
   font-size: 20px; }
 
 .tablebody {
-    color: #b4b4b4 !important;
+  color: #b4b4b4 !important;
   font-size: 16px; }
 
 .page-link {
-    color: #b4b4b4 !important;
-}
+  color: #b4b4b4 !important; }
 
 .brandlogo {
   height: 50px !important; }
@@ -178,6 +151,12 @@ footer {
   color: #ffffff; }
 
 @media screen and (max-width: 560px) {
+  .headersection {
+    background-image: url("../images/divine-web-ban.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
   .welcomediv {
     font-size: 28px !important; } }
 
@@ -201,6 +180,22 @@ footer {
     .vm-voomsway-filter .vm-tab-section .vm-tab-label.vm-active-tab {
       border-bottom: 3px solid #c52b32;
       color: #c52b32 !important; }
+
+.btn-custom-primary {
+  background-color: #c52b32 !important; }
+
+.btn-custom-white {
+  color: #c52b32 !important; }
+
+.color-custom {
+  color: #c52b32 !important; }
+
+.number {
+  background-color: #c52b32 !important;
+  border: 1px solid #c52b32 !important; }
+
+.book-now {
+  background-color: #c52b32 !important; }
 
 .card-body {
   color: #989898 !important;

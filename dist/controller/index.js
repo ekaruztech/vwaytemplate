@@ -134,13 +134,13 @@ var AppController = {
 
               if (data) {
                 res.render('terminals', {
-	                title: 'Divine Express',
+                  title: 'Divine Express',
                   terminals: data,
                   pagination: _meta.pagination
                 });
               } else {
                 res.render('terminals', {
-	                title: 'Divine Express',
+                  title: 'Divine Express',
                   terminals: [],
                   pagination: null
                 });
