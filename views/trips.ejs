@@ -24,6 +24,7 @@
          data-fbid="<%= (social_auth_keys) ? social_auth_keys.facebook_app_id : '' %>"
          data-gid="<%= (social_auth_keys) ? social_auth_keys.google_api_key : '' %>"
          data-gcid="<%= (social_auth_keys) ? social_auth_keys.google_client_id : '' %>"
+         data-paystack="<%= process.env.PAYSTACK_API_KEY %>"
 ></section>
 <footer class="container-fluid shadow ">
     <div class="vm-footer d-flex justify-content-center align-self-center">
