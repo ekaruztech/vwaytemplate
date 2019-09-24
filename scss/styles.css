@@ -195,7 +195,7 @@ footer .vm-footer p {
 @media screen and (max-width: 560px) {
   .headersection {
     background-image: url("../images/divine-web-ban.png");
-    height: 550px;
+    height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -258,6 +258,13 @@ footer .vm-footer p {
 .card-body {
   color: #989898 !important;
   font-size: 14px !important;
+}
+
+.auth-actions-btns {
+  color: #c52b32 !important;
+}
+.auth-actions-btns a {
+  color: #c52b32 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
