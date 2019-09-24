@@ -201,7 +201,5 @@ footer {
   color: #989898 !important;
   font-size: 14px !important; }
 
-.auth-actions-btns {
+.auth-actions-btns a {
   color: #c52b32 !important; }
-  .auth-actions-btns a {
-    color: #c52b32 !important; }
