@@ -69,6 +69,11 @@ var AppController = {
       title: 'Divine Express'
     });
   },
+  terms: function terms(req, res, next) {
+    return res.render('terms', {
+      title: 'Divine Express'
+    });
+  },
   receipt: function receipt(req, res, next) {
     return res.render('receipt', {
       title: 'Divine Express'

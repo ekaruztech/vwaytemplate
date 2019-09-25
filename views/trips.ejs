@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/ekaruztech/voomsway@0.3.1/voomsway.css">
     <!--<link rel="stylesheet" media="screen" href="/css/voomsway.css">-->
     <link rel="stylesheet" href='/css/styles.css'/>
+<!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">-->
     <link href="/images/favicon.png" type="image/x-icon" rel="shortcut icon"/>
     <title><%= title %></title>
 </head>
@@ -26,11 +26,7 @@
          data-gcid="<%= (social_auth_keys) ? social_auth_keys.google_client_id : '' %>"
          data-paystack="<%= process.env.PAYSTACK_API_KEY %>"
 ></section>
-<footer class="container-fluid shadow ">
-    <div class="vm-footer d-flex justify-content-center align-self-center">
-        <p>© Copyright 2019 Divine Express Transportation Company</p>
-    </div>
-</footer>
+<% include partials/footer.ejs %>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -40,6 +36,20 @@
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/gh/ekaruztech/voomsway@0.3.1/voomsway.js"></script>
 <!--<script src="/js/voomsway.js"></script>-->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5d8b4e736c1dde20ed03609e/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
 
 </body>
 </html>
