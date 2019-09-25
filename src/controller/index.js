@@ -15,6 +15,9 @@ export const AppController = {
     about(req, res, next) {
         return res.render('about', { title: 'Divine Express' });
     },
+	terms(req, res, next) {
+		return res.render('terms', { title: 'Divine Express' });
+	},
 	receipt(req, res, next) {
 		return res.render('receipt', { title: 'Divine Express' });
 	},

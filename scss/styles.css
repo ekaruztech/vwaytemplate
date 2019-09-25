@@ -63,14 +63,14 @@ body {
 
 footer {
   background: #361737;
-  min-height: 10vh;
+  min-height: 5vh;
 }
 footer .vm-footer {
-  height: 12vh;
+  height: 4vh;
 }
 footer .vm-footer p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   margin: auto 0;
 }
 
@@ -262,6 +262,15 @@ footer .vm-footer p {
 
 .auth-actions-btns a {
   color: #c52b32 !important;
+}
+
+.list-inline-item {
+  color: white;
+}
+.list-inline-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=styles.css.map */

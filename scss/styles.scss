@@ -71,12 +71,12 @@ body {
 
 footer {
   background: $bg-main;
-  min-height: 10vh;
+  min-height: 5vh;
   .vm-footer {
-    height: 12vh;
+    height: 4vh;
     p {
       color: #ffffff;
-      font-size: 14px;
+      font-size: 12px;
       margin: auto 0;
     }
   }
@@ -316,4 +316,13 @@ footer {
     color: #c52b32 !important;
   }
 }
+.list-inline-item {
+  color: white;
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+  }
+}
+
 

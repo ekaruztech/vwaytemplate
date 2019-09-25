@@ -15,6 +15,7 @@ router.get('/vway/*', _controller.AppController.entry);
 router.get('/terminals', _controller.AppController.terminals);
 router.get('/about', _controller.AppController.about);
 router.get('/contact', _controller.AppController.contact);
+router.get('/terms', _controller.AppController.terms);
 router.get('/receipt', _controller.AppController.receipt);
 var _default = router;
 exports["default"] = _default;
