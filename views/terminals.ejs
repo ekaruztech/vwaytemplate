@@ -38,9 +38,7 @@ const capitalizeFirstLetter = (string) => {
                         <% if (terminal.destinations && terminal.destinations.length) { %>
                         <% terminal.destinations.forEach((destination) =>  { %>
                         <p class="card-title mb-2"><i class="fas fa-shuttle-van fa-lg"></i>
-                            <%=
-                                `${capitalizeFirstLetter(destination.location.city)}, ${capitalizeFirstLetter(destination.location.state)}`
-                            %>
+                            <%= `${capitalizeFirstLetter(destination.location.city)}, ${capitalizeFirstLetter(destination.location.state)}` %>
                         </p>
                         <% }) %>
                         <% } %>
