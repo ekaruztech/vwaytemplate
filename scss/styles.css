@@ -141,6 +141,9 @@ footer .vm-footer p {
   font-size: 20px;
   margin-bottom: 30px;
 }
+.main-section .about .border-info {
+  color: #b4b4b4 !important;
+}
 .main-section .terminal {
   padding: 20px;
 }
@@ -271,6 +274,10 @@ footer .vm-footer p {
   color: white;
   text-decoration: none;
   font-size: 13px;
+}
+
+.theme-background-color {
+  background-color: #a82733 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

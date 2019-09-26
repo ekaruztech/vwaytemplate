@@ -151,6 +151,9 @@ footer {
       font-size: 20px;
       margin-bottom: 30px;
     }
+    .border-info{
+      color: $accent-color !important;
+    }
   }
 
   .terminal {
@@ -324,5 +327,7 @@ footer {
     font-size: 13px;
   }
 }
-
+.theme-background-color{
+  background-color: #a82733 !important;
+}
 
