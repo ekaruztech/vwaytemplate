@@ -24,14 +24,54 @@
          data-paystack="<%= process.env.PAYSTACK_API_KEY %>"
 ></section>
 
-<% include partials/footer.ejs %>
-
+<footer class="container-fluid shadow ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 mr-2">
+                <a class="navbar-brand footer-logo" href="/"><img src="/images/DivineExpress.png" style="height: 60px;"></a>
+            </div>
+            <div class="col-lg-6 col-sm-12 mt-4 text-white justify-content-center">
+                <ul class="list-inline ">
+                    <li class="list-inline-item mr-3 "><a href="/vway/trips">BOOK TRIPS</a></li>
+                    <li class="list-inline-item mr-3 "><a href="/terminals">TERMINALS</a></li>
+                    <li class="list-inline-item mr-3 "><a href="/about">ABOUT</a></li>
+                    <li class="list-inline-item mr-3 "><a href="/contact">CONTACT</a></li>
+                    <li class="list-inline-item mr-3 "><a href="/terms">TERMS & CONDITION</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-12 mt-4 text-white justify-content-center">
+                <a href="https://www.facebook.com/divinextransport/" target="_blank"><i
+                            class="fab fa-facebook text-white fa-2x mr-3"></i></a>
+                <a href="https://twitter.com/divine_express1" target="_blank"><i
+                            class="fab fa-twitter text-white fa-2x mr-3"></i></a>
+                <a href="https://www.instagram.com/divinextransport/" target="_blank"><i
+                            class="fab fa-instagram text-white fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="vm-footer d-flex justify-content-center border-top border-dark align-self-center">
+        <p>© Copyright 2019 Divine Express Transport Company</p>
+    </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+	var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+	(function () {
+		var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+		s1.async = true;
+		s1.src = 'https://embed.tawk.to/5d8b4e736c1dde20ed03609e/default';
+		s1.charset = 'UTF-8';
+		s1.setAttribute('crossorigin', '*');
+		s0.parentNode.insertBefore(s1, s0);
+	})();
+</script>
+<!--End of Tawk.to Script-->
 <script src="https://cdn.jsdelivr.net/gh/ekaruztech/voomsway@0.3.2/voomsway.js"></script>
 </body>
 </html>
