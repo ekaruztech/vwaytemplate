@@ -151,7 +151,7 @@ footer {
       font-size: 20px;
       margin-bottom: 30px;
     }
-    .border-info{
+    .border-info {
       color: $accent-color !important;
     }
   }
@@ -216,7 +216,8 @@ footer {
     height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center; }
+    background-position: center center;
+  }
   .welcomediv {
     font-size: 28px !important;
   }
@@ -290,35 +291,38 @@ footer {
   }
 }
 
-.btn-custom-primary{
+.btn-custom-primary {
   background-color: #c52b32 !important;
 }
-.btn-custom-white{
+
+.btn-custom-white {
   color: #c52b32 !important;
 }
 
-.color-custom{
+.color-custom {
   color: #c52b32 !important;
 }
-.number{
+
+.number {
   background-color: #c52b32 !important;
   border: 1px solid #c52b32 !important;
 }
-.book-now{
+
+.book-now {
   background-color: #c52b32 !important;
 }
 
-.card-body{
+.card-body {
   color: #989898 !important;
   font-size: 14px !important;
 }
 
-
 .auth-actions-btns {
-  a{
+  a {
     color: #c52b32 !important;
   }
 }
+
 .list-inline-item {
   color: white;
   a {
@@ -327,7 +331,24 @@ footer {
     font-size: 13px;
   }
 }
-.theme-background-color{
+
+.theme-background-color {
   background-color: #a82733 !important;
 }
 
+.Progress {
+  .progress-spinner-message {
+    color: $bg-primary !important;
+  }
+  & > div {
+    background-color: $bg-primary !important;
+  }
+  &.alt {
+    div {
+      background-color: #ffffff !important;
+    }
+    .progress-spinner-message {
+      color: #ffffff !important;
+    }
+  }
+}

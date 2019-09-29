@@ -110,6 +110,10 @@ footer {
     .main-section .about p {
       font-size: 20px;
       margin-bottom: 30px; }
+
+.main-section .about .border-info {
+    color: #b4b4b4 !important;
+}
   .main-section .terminal {
     padding: 20px; }
     .main-section .terminal .card {
@@ -211,9 +215,21 @@ footer {
     text-decoration: none;
     font-size: 13px; }
 
-.terms-section p {
-  color: #361737 !important;
-  font-size: 16px !important; }
-
 .theme-background-color {
   background-color: #a82733 !important; }
+
+.Progress .progress-spinner-message {
+    color: #c52b32 !important;
+}
+
+.Progress > div {
+    background-color: #c52b32 !important;
+}
+
+.Progress.alt div {
+    background-color: #ffffff !important;
+}
+
+.Progress.alt .progress-spinner-message {
+    color: #ffffff !important;
+}
