@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  color: #3c88b5 !important;
+  color: $bg-primary !important;
 }
 
 .nav-link {
@@ -30,12 +30,6 @@ body {
   height: 100vh - 20;
   background: url('../images/divine-web-ban.png') no-repeat center center;
   background-size: cover;
-}
-
-.populartrip {
-  color: #3c88b5;
-  font-size: 24px;
-  font-weight: 700;
 }
 
 .terminalloc {
