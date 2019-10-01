@@ -9,7 +9,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  color: #3c88b5 !important;
+  color: #c52b32 !important;
 }
 
 .nav-link .nav-link {
@@ -22,12 +22,6 @@ body {
   height: 80vh;
   background: url("../images/divine-web-ban.png") no-repeat center center;
   background-size: cover;
-}
-
-.populartrip {
-  color: #3c88b5;
-  font-size: 24px;
-  font-weight: 700;
 }
 
 .terminalloc {
@@ -278,6 +272,19 @@ footer .vm-footer p {
 
 .theme-background-color {
   background-color: #a82733 !important;
+}
+
+.Progress .progress-spinner-message {
+  color: #c52b32 !important;
+}
+.Progress > div {
+  background-color: #c52b32 !important;
+}
+.Progress.alt div {
+  background-color: #ffffff !important;
+}
+.Progress.alt .progress-spinner-message {
+  color: #ffffff !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
