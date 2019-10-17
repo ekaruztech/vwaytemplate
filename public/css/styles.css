@@ -7,8 +7,7 @@ body {
   width: auto; }
 
 .navbar-toggler-icon {
-    color: #c52b32 !important;
-}
+  color: #c52b32 !important; }
 
 .nav-link .nav-link {
   color: #c52b32;
@@ -106,10 +105,8 @@ footer {
     .main-section .about p {
       font-size: 20px;
       margin-bottom: 30px; }
-
-.main-section .about .border-info {
-    color: #b4b4b4 !important;
-}
+    .main-section .about .border-info {
+      color: #b4b4b4 !important; }
   .main-section .terminal {
     padding: 20px; }
     .main-section .terminal .card {
@@ -215,17 +212,16 @@ footer {
   background-color: #a82733 !important; }
 
 .Progress .progress-spinner-message {
-    color: #c52b32 !important;
-}
+  color: #c52b32 !important; }
 
 .Progress > div {
-    background-color: #c52b32 !important;
-}
+  background-color: #c52b32 !important; }
 
 .Progress.alt div {
-    background-color: #ffffff !important;
-}
+  background-color: #ffffff !important; }
 
 .Progress.alt .progress-spinner-message {
-    color: #ffffff !important;
-}
+  color: #ffffff !important; }
+
+.v-way-main a {
+  color: #c52b32 !important; }
